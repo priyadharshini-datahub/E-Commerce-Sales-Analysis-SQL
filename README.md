@@ -45,5 +45,19 @@ order_items
 products
     │
     │ category_id
+
+## 📊 Project Visualizations
+
+### Database Tables
+![Database Tables](./database-tables.png)
+
+### Monthly Revenue
+![Monthly Revenue](./monthly-revenue.png)
+
+### Top Customers
+![Top Customers](./top-customers.png)
+
+### Total Revenue
+![Total Revenue](./total-revenue.png)
     ▼
 categories
