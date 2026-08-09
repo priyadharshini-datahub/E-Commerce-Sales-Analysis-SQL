@@ -52,14 +52,14 @@ categories
 ## 📊 Project Visualizations
 
 ### Database Tables
-![Database Tables](screenshots/database-tables.png)
+![Database Tables](database-tables.png)
 
 ### Monthly Revenue
-![Monthly Revenue](screenshots/monthly-revenue.png)
+![Monthly Revenue](monthly-revenue.png)
 
 ### Top Customers
-![Top Customers](screenshots/top-customers.png)
+![Top Customers](top-customers.png)
 
 ### Total Revenue
-![Total Revenue](screenshots/total-revenue.png)
+![Total Revenue](total-revenue.png)
 
