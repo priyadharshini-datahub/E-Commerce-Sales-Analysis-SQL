@@ -1,65 +1,146 @@
-# E-Commerce Sales Analysis using MySQL
+# 🛒 E-Commerce Sales Analysis using MySQL
 
 ## 📌 Project Overview
 
-This project analyzes e-commerce sales data using MySQL to understand customer behavior, product performance, order activity, and revenue generation.
+This project analyzes e-commerce sales data using **MySQL and SQL**.
 
-The project was created as a SQL-focused data analytics project to apply practical SQL concepts to a real-world business scenario.
+The objective is to analyze customer orders, product sales, revenue, and purchasing patterns using SQL queries and generate meaningful business insights.
+
+---
 
 ## 🎯 Project Objectives
 
-- Analyze customer and order data
-- Identify high-performing products
-- Analyze customer purchasing behavior
-- Calculate revenue from delivered orders
-- Identify top customers based on spending
-- Analyze product pricing across categories
+- Analyze overall e-commerce sales performance
+- Calculate total revenue from delivered orders
+- Identify top customers based on total spending
 - Analyze monthly revenue trends
-- Generate meaningful business insights using SQL
+- Analyze product and category performance
+- Practice SQL joins, aggregate functions, filtering, grouping, sorting, and subqueries
+- Answer real-world business questions using SQL
+
+---
 
 ## 🗄️ Database Structure
 
-The database contains five main tables:
+The project database contains the following tables:
 
-- `customers` – Customer details
-- `categories` – Product category information
-- `products` – Product details and prices
-- `orders` – Order details and order status
-- `order_items` – Products and quantities associated with each order
+- Customers
+- Orders
+- Order Items
+- Products
+- Categories
 
-### Table Relationships
+These tables are connected using primary keys and foreign keys to analyze customers, orders, products, and sales.
 
-```text
-customers
-    │
-    │ customer_id
-    ▼
-orders
-    │
-    │ order_id
-    ▼
-order_items
-    │
-    │ product_id
-    ▼
-products
-    │
-    │ category_id
-    ▼
-categories
+---
 
+## 🛠️ Tools & Technologies
 
-## 📊 Project Visualizations
+- **MySQL**
+- **MySQL Workbench**
+- **SQL**
+- Joins
+- Aggregate Functions
+- GROUP BY
+- ORDER BY
+- WHERE
+- CASE
+- Subqueries
+
+---
+
+## 🔍 Analysis Performed
+
+The project contains **30 SQL business questions**, including:
+
+- Total revenue calculation
+- Order analysis
+- Customer spending analysis
+- Top customers
+- Product sales analysis
+- Category-wise analysis
+- Monthly revenue analysis
+- Delivered-order analysis
+- Ranking and sorting
+- Conditional analysis using CASE
+- SQL subqueries
+- Multiple-table JOIN operations
+
+---
+
+## 📊 Key Analysis
+
+### Total Revenue
+
+Calculated the total revenue generated from delivered orders using:
+
+`Product Price × Order Quantity`
+
+### Top Customers
+
+Identified customers with the highest total spending based on their delivered orders.
+
+### Monthly Revenue
+
+Analyzed revenue generated across different months to understand sales trends.
+
+### Product & Category Analysis
+
+Analyzed product-level and category-level sales performance to identify important contributors to revenue.
+
+---
+
+## 📸 Project Visualizations
 
 ### Database Tables
+
 ![Database Tables](database-tables.png)
 
 ### Monthly Revenue
+
 ![Monthly Revenue](monthly-revenue.png)
 
 ### Top Customers
+
 ![Top Customers](top-customers.png)
 
 ### Total Revenue
+
 ![Total Revenue](total-revenue.png)
 
+---
+
+## 📁 Project Files
+
+### `ecommerce_sales_analysis-sql.sql`
+
+Contains the database creation, table creation, and data-related SQL statements.
+
+### `ecommerce_sales_analysis_queries.sql`
+
+Contains the 30 SQL queries used for the analysis and business questions.
+
+### Screenshots
+
+The screenshots demonstrate the database tables and selected analysis results.
+
+---
+
+## 💡 Key Skills Demonstrated
+
+- SQL Data Analysis
+- MySQL
+- Database Management
+- Data Aggregation
+- Data Filtering
+- Multi-table Joins
+- Subqueries
+- Business Question Analysis
+- Revenue Analysis
+- Customer Analysis
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how SQL can be used to transform e-commerce transactional data into meaningful business insights. The analysis focuses on revenue, customers, products, categories, and sales trends using practical SQL techniques.
