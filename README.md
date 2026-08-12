@@ -112,11 +112,11 @@ Analyzed product-level and category-level sales performance to identify importan
 
 ## 📁 Project Files
 
-### `ecommerce_sales_analysis-sql.sql`
+- [ecommerce_sales_analysis-sql.sql](ecommerce_sales_analysis-sql.sql)
 
 Contains the database creation, table creation, and data-related SQL statements.
 
-### `ecommerce_sales_analysis_queries.sql`
+- [ecommerce_sales_analysis_queries.sql](ecommerce_sales_analysis_queries.sql)
 
 Contains the 30 SQL queries used for the analysis and business questions.
 
